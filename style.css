@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(to right top, #ffffff, #f2f7ff, #d8f3ff, #b3f1ff, #8bf0ff, #8bf0ff, #8bf0ff, #8bf0ff, #b3f1ff, #d8f3ff, #f2f7ff, #ffffff);
+}
+
+#cesta-carrito {
+  width: 50px;
+  height: 50px;
+
+}
+
+#cesta-carrito:hover {
+  cursor: pointer;
+  color: white;
+}
+
+#logo {
+  height: auto;
+  width: auto;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.envios {
+  background-color: #0066ff;
+  text-align: center;
+  color: white;
+  position: sticky;
+  top: 0%;
+  font-weight: bold;
+}
+
+.tituloPrincipal {
+  color: black;
+  font-size: 3.5rem;
+  font-family: "Amatic SC", cursive;
+}
+
+.h1Container {
+  align-self: center;
+}
+
+.logoContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.catdogLogo {
+  display: flex;
+  justify-content: start;
+}
+
+.enlaces {
+  font-size: 31px;
+  text-decoration: none;
+  list-style: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+}
+
+.enlaces:hover {
+  color: white;
+}
+
+.links {
+  background-color: #3e4041;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.listado:hover {
+  color: white;
+  background-color: darkgoldenrod;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+footer {
+  padding-top: 60px;
+}
+
+.listaRedes {
+  list-style: none;
+  font-weight: bold;
+  padding-left: 0;
+}
+
+.redesIcon {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.imgIcon:hover {
+  transition: all 1s;
+  transform: scale(0.9);
+}
+
+.listaTexto {
+  padding-left: 5px;
+}
+
+.derechos {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+.gridFooter {
+  display: grid;
+  grid-template-areas: "metodosPago1 metodosPago2 metodosPago3" "metodosPago4 metodosPago5 metodosPago6";
+  padding-bottom: 10%;
+  padding-top: 8px;
+  gap: 5px;
+}
+
+.imgPago {
+  padding: 5px;
+  width: 65px;
+}
+
+.footerContainer {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.iconosContacto {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.contactoIcon {
+  width: 40px;
+}
+
+.pContacto {
+  padding-left: 5px;
+}
+
+.contactoLista {
+  padding-top: 6px;
+}
+
+.tituloVeterinaria {
+  text-align: center;
+  font-weight: bold;
+  padding-top: 50px;
+  font-size: 5rem;
+  font-family: "Amatic SC", cursive;
+}
+
+.subtituloServicio {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.imgServicios {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.imagenVete {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  border-radius: 5%;
+  filter: drop-shadow(5px 5px 5px black);
+}
+
+.vacunacionContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.pServicios {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 50px;
+}
+
+/* Media queries */
+@media only screen and (max-width: 653px) and (min-width: 280px) {
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .enlaces {
+    font-size: 13px;
+  }
+
+  .descripcionFormulario {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 405px) and (min-width: 300px) {
+  .tituloPrincipal {
+    font-size: 2rem;
+  }
+
+  .descripcionFormulario {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 536px) and (min-width: 405px) {
+  .tituloPrincipal {
+    font-size: 3rem;
+  }
+
+  .descripcionFormulario {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 536px) {
+  .tituloPrincipal {
+    font-size: 5rem;
+  }
+
+  .descripcionFormulario {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+}
+/* Fin media queries */

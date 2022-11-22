@@ -1,0 +1,86 @@
+[
+    {
+      "id": 1,
+      "nombre": "Dog Chow 3kg",
+      "img": "img/DOG CHOW.png",
+      "precio": 880,
+      "cantidad": 1
+    },
+    {
+      "id": 2,
+      "nombre": "Excellent Reduced Calorie 3kg",
+      "img": "img/EXCELLENT.png",
+      "precio": 1365,
+      "cantidad": 1
+    },
+    {
+      "id": 3,
+      "nombre": "Pro Plan Adulto Small Raza Pequeña 7.5kg",
+      "img": "img/PRO PLAN ADULTO.png",
+      "precio": 4235,
+      "cantidad": 1
+    },
+    {
+      "id": 4,
+      "nombre": "Biberon Para Cachorros 120ml",
+      "img": "img/BIBERON.png",
+      "precio": 760,
+      "cantidad": 1
+    },
+    {
+      "id": 5,
+      "nombre": "Bolsa Higienicas Biodegradables x12u",
+      "img": "img/BOLSITAS.png",
+      "recio": 1170,
+      "cantidad": 1
+    },
+    {
+      "id": 6,
+      "nombre": "Dispenser Ferplast Agua/Comida",
+      "img": "img/DISPENSER.png",
+      "precio": 1190,
+      "cantidad": 1
+    },
+    {
+      "id": 7,
+      "nombre": "Balanced Gato Adulto 2kg",
+      "img": "img/catbalanced.png",
+      "precio": 1320,
+      "cantidad": 1
+    },
+    {
+      "id": 8,
+      "nombre": "Excellent Gato Adulto 1kg",
+      "img": "img/catexcellent.png",
+      "precio": 690,
+      "cantidad": 1
+    },
+    {
+      "id": 9,
+      "nombre": "Cat Chow Adulto Pescado 3kg",
+      "img": "img/chow.png",
+      "precio": 1240,
+      "cantidad": 1
+    },
+    {
+      "id": 10,
+      "nombre": "Fuente Bebedero Para Gatos",
+      "img": "img/fuente gato.png",
+      "precio": 7050,
+      "cantidad": 1
+    },
+    {
+      "id": 11,
+      "nombre": "Hierba Gatera",
+      "img": "img/hierba gato.png",
+      "precio": 310,
+      "cantidad": 1
+    },
+    {
+      "id": 12,
+      "nombre": "Dispenser Ferplast Agua/Comida",
+      "img": "img/rascador gato.png",
+      "precio": 1530,
+      "cantidad": 1
+    }
+  ]

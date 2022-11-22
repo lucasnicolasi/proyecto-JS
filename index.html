@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Google Font / Amatic-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+
+  <!--Google Font / Roboto-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <title>CatDog - PetShop</title>
+</head>
+
+<body>
+
+  <header>
+    <div class="envios">
+      <b>
+        <p>ENVIOS GRATIS EN CABA y ALREDEDORES - 5% OFF PAGANDO EN EFECTIVO</p>
+      </b>
+    </div>
+
+    <nav class="navHeader">
+      <div class="logoContainer">
+        <div class="catdogBox">
+          <a href="index.html">
+            <!--el logo redirige al inicio-->
+            <img src="img/logo.png" class="catdogLogo" alt="logo principal">
+          </a>
+        </div>
+        <div class="h1Container">
+          <h1 class="tituloPrincipal">CatDog - PetShop</h1>
+        </div>
+      </div>
+
+      <ul class="links">
+        <li class="listado">
+          <a class="enlaces" href="index.html"> <b>Inicio</b> </a>
+        </li>
+
+        <li class="listado">
+          <a class="enlaces" href="pages/servicios.html"> <b>Servicios</b> </a>
+        </li>
+
+        <li class="listado">
+          <a class="enlaces" href="pages/form.html"> <b>Contacto</b> </a>
+        </li>
+
+        <li class="listado">
+          <section class="carrito-c animated">
+            <span style="font-size:30px;cursor:pointer" id="openCar">
+              <img id="cesta-carrito" src="img/CART.png" height="90px" width="90px" data-bs-toggle="modal"
+                data-bs-target="#exampleModal"><span id="contador-carrito">0</span></img>
+            </span>
+          </section>
+        </li>
+      </ul>
+      </div>
+    </nav>
+  </header>
+
+  
+
+
+
+
+  <section class="d-flex flex-column justify-content-center align-items-center  ">
+    <h1>Productos</h1>
+  </section>
+
+  <section class="container">
+    <div class="row text-center" id="tienda">
+
+    </div>
+  </section>
+
+
+  <section class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Carrito de compra</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+
+          <div class="row text-center" id="carrito">
+
+          </div>
+
+        </div>
+        <div class="modal-footer">
+          <div id="total"></div>
+        </div>
+      </div>
+  </section>
+
+  <footer>
+    <div class="footerContainer">
+      <ul class="listaRedes">
+        <div class="redesIcon">
+          <a href="https://www.instagram.com/?hl=es"><img src="img/instagram.png" alt="Instagram" class="imgIcon"></a>
+          <li class="listaTexto">@catdogpetshop</li>
+        </div>
+        <div class="redesIcon">
+          <a href="https://m.facebook.com/"><img src="img/fb.png" alt="Facebook" class="imgIcon"></a>
+          <li class="listaTexto">/catdogpetshop</li>
+        </div>
+        <div class="redesIcon">
+          <a href="https://web.whatsapp.com/"><img src="img/whatsapp.png" alt="Whatsapp" class="imgIcon"></a>
+          <li class="listaTexto">11-12345678</li>
+        </div>
+      </ul>
+
+      <ul>
+        <div class="iconosContacto">
+          <img src="img/clock.png" alt="horario" class="contactoIcon">
+          <li class="pContacto">Horario de Atención: Lun a Vie 9 a 18 HS, Sab 9 a 14 Hs</li>
+        </div>
+
+        <div class="iconosContacto">
+          <img src="img/maps.png" alt="ubicacion" class="contactoIcon">
+          <li class="pContacto">Valle 327 CABA </li>
+        </div>
+
+        <div class="iconosContacto">
+          <img src="img/gmail.png" alt="mail" class="contactoIcon">
+          <li class="pContacto">catdogpetshop@gmail.com</li>
+        </div>
+
+      </ul>
+
+      <div class="gridFooter">
+        <div class="metodosPago1">
+          <img src="img/banelco.png" alt="banelco" class="imgPago">
+        </div>
+        <div class="metodosPago2">
+          <img src="img/cabal.png" alt="cabal" class="imgPago">
+        </div>
+        <div class="metodosPago3">
+          <img src="img/mastercard.png" alt="mastercard" class="imgPago">
+        </div>
+        <div class="metodosPago4">
+          <img src="img/mercadopago.png" alt="mercadopago" class="imgPago">
+        </div>
+        <div class="metodosPago5">
+          <img src="img/naranja.png" alt="naranja" class="imgPago">
+        </div>
+        <div class="metodosPago6">
+          <img src="img/visa.png" alt="visa" class="imgPago">
+        </div>
+      </div>
+
+    </div>
+
+    <p class="derechos">Todos los derechos reservados.</p>
+
+
+
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
+  <script src="main.js"></script>
+
+</body>
+
+</html>
